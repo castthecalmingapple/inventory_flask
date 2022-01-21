@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block title %}Home{% endblock %}
+{% block content %}
+<br>
+<h1 class="display-2">Welcome back, {{ user.firstName }}</h1>
+<br>
+<br>
+<p>What would you like to do today?</p>
+<br>
+<button type="button" class="btn btn-primary btn-lg">Add Part</button>
+<br>
+<br>
+<button type="button"  class="btn btn-primary btn-lg">Remove Part</button>
+<br>
+<br>
+<button type="button" class="btn btn-primary btn-lg">See shortage list</button>
+<br>
+<br>
+<button type="button" class="btn btn-primary btn-lg">See recent activity</button>
+
+
+
+
+{% endblock %}
